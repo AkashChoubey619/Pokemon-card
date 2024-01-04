@@ -70,10 +70,11 @@ body {
 	background: #000;
 	min-height: 100vh;
 	align-items: center;
-	justify-content: center;
+	justify-content:center;
 }
 #parent{
   display: flex;
+	justify-content:center;
   flex-direction: column;
   width: 100vw;
 }
@@ -83,12 +84,18 @@ body {
   position: relative;
   width: 80vw;
   height: 20vh;
-
+justify-content: center;
 	display: flex;
   flex-direction: row;
   align-self: center;
-
 }
+
+  @media screen and (max-width:100px) {
+    .content2{
+      display: none;
+    }
+  }
+
 .content {
   /* left: 10%; */
   left:5cqmax;
