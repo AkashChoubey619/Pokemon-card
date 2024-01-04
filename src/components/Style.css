@@ -70,11 +70,10 @@ body {
 	background: #000;
 	min-height: 100vh;
 	align-items: center;
-	justify-content:center;
+	justify-content: center;
 }
 #parent{
   display: flex;
-	justify-content:center;
   flex-direction: column;
   width: 100vw;
 }
@@ -82,25 +81,20 @@ body {
 #section{
   font-family: "Poppins", sans-serif;
   position: relative;
-  width: 80vh;
+  width: 80vw;
   height: 20vh;
-justify-content: center;
+  margin: auto;
 	display: flex;
   flex-direction: row;
   align-self: center;
-  margin: auto;
-}
 
-  @media screen and (max-width:1000px) {
+}
+@media screen and (max-width:1000px) {
     .content2{
       display: none;
     }
-    .content{
-      flex-wrap: wrap;
-      margin: auto;
-    }
+  
   }
-
 .content {
   /* left: 10%; */
   left:5cqmax;
