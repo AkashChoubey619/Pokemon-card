@@ -9,9 +9,9 @@ function ExpandedContent({ data, model, setModel }) {
                 <h3 className='expanded-name'>{name}</h3>
             </div>
             <div className='expanded-right'>
-                <table className='expanded-table '>
+                <table className={'expanded-table '+ `${type}`}>
                     <tr>
-                        <td>
+                        <td >
                             <table>
                                 <tbody>
                                     <tr>
