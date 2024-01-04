@@ -82,7 +82,7 @@ body {
 #section{
   font-family: "Poppins", sans-serif;
   position: relative;
-  width: 80vw;
+  width: 80vh;
   height: 20vh;
 justify-content: center;
 	display: flex;
@@ -94,6 +94,10 @@ justify-content: center;
   @media screen and (max-width:1000px) {
     .content2{
       display: none;
+    }
+    .content{
+      flex-wrap: wrap;
+      margin: auto;
     }
   }
 
